@@ -1,0 +1,908 @@
+{
+  "dataset": "Argoverse 2 Motion Forecasting",
+  "split": "val",
+  "selection": "first N parquet keys in lexicographic S3 order; not random or representative",
+  "requested": 128,
+  "downloaded": 128,
+  "license": "CC-BY-NC-SA-4.0; see full dataset terms",
+  "terms": "https://www.argoverse.org/av2.html",
+  "credit": "Argo AI / Argoverse 2 contributors (Wilson et al., 2023)",
+  "files": [
+    {
+      "key": "datasets/av2/motion-forecasting/val/00010486-9a07-48ae-b493-cf4545855937/scenario_00010486-9a07-48ae-b493-cf4545855937.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00010486-9a07-48ae-b493-cf4545855937/scenario_00010486-9a07-48ae-b493-cf4545855937.parquet",
+      "file": "scenario_00010486-9a07-48ae-b493-cf4545855937.parquet",
+      "bytes": 158651,
+      "sha256": "adffa33264b509a781a0e18dc795fd78e1076feab5a085b4e2f3eb1d219f5c0f"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00062a32-8d6d-4449-9948-6fedac67bfcd/scenario_00062a32-8d6d-4449-9948-6fedac67bfcd.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00062a32-8d6d-4449-9948-6fedac67bfcd/scenario_00062a32-8d6d-4449-9948-6fedac67bfcd.parquet",
+      "file": "scenario_00062a32-8d6d-4449-9948-6fedac67bfcd.parquet",
+      "bytes": 267008,
+      "sha256": "5ebf2eaa4dddda93e8ad02ddef94057828c3c28203003af4e529a082c562d179"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0006ca28-fcbb-4ae2-9d9e-951fa3b41c1c/scenario_0006ca28-fcbb-4ae2-9d9e-951fa3b41c1c.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0006ca28-fcbb-4ae2-9d9e-951fa3b41c1c/scenario_0006ca28-fcbb-4ae2-9d9e-951fa3b41c1c.parquet",
+      "file": "scenario_0006ca28-fcbb-4ae2-9d9e-951fa3b41c1c.parquet",
+      "bytes": 66963,
+      "sha256": "649420db393c5a20d29e3956e4442ad36f737e5b4ec5f90715228d2a17649109"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0007df76-c9a2-47aa-83bf-3b2b414109c9/scenario_0007df76-c9a2-47aa-83bf-3b2b414109c9.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0007df76-c9a2-47aa-83bf-3b2b414109c9/scenario_0007df76-c9a2-47aa-83bf-3b2b414109c9.parquet",
+      "file": "scenario_0007df76-c9a2-47aa-83bf-3b2b414109c9.parquet",
+      "bytes": 272290,
+      "sha256": "85eebac72328c4d9d44b555230630aa7efa7153e79feae2717d9a3b3183f1845"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0015197d-b916-43b6-bcaa-8a7d90d7b87d/scenario_0015197d-b916-43b6-bcaa-8a7d90d7b87d.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0015197d-b916-43b6-bcaa-8a7d90d7b87d/scenario_0015197d-b916-43b6-bcaa-8a7d90d7b87d.parquet",
+      "file": "scenario_0015197d-b916-43b6-bcaa-8a7d90d7b87d.parquet",
+      "bytes": 169570,
+      "sha256": "be9347143d0918a1a798b458fd94b92ca07b114b6e9f7f9afb7b0ca0e21da707"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00170a57-eb8a-4947-8b7d-7b12af7af2db/scenario_00170a57-eb8a-4947-8b7d-7b12af7af2db.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00170a57-eb8a-4947-8b7d-7b12af7af2db/scenario_00170a57-eb8a-4947-8b7d-7b12af7af2db.parquet",
+      "file": "scenario_00170a57-eb8a-4947-8b7d-7b12af7af2db.parquet",
+      "bytes": 212463,
+      "sha256": "e2c85e80270b8958a0835e12ac6ea272fa5b1fe0e011e9abdd155a8545b2ad8b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/001749f1-bc1c-47fb-a13f-9ab1f2c050a8/scenario_001749f1-bc1c-47fb-a13f-9ab1f2c050a8.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/001749f1-bc1c-47fb-a13f-9ab1f2c050a8/scenario_001749f1-bc1c-47fb-a13f-9ab1f2c050a8.parquet",
+      "file": "scenario_001749f1-bc1c-47fb-a13f-9ab1f2c050a8.parquet",
+      "bytes": 232561,
+      "sha256": "e7df2f3887cfd9b76729476b7301060938cc6c8e74fddb6e471aea8bf7776541"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00190202-a988-4f35-96b5-876869b4e0a3/scenario_00190202-a988-4f35-96b5-876869b4e0a3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00190202-a988-4f35-96b5-876869b4e0a3/scenario_00190202-a988-4f35-96b5-876869b4e0a3.parquet",
+      "file": "scenario_00190202-a988-4f35-96b5-876869b4e0a3.parquet",
+      "bytes": 99809,
+      "sha256": "3143fb065c9e133b0bd530c42cec878caeae0a79da2adaf52e9490f6fd8118f4"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00195499-be19-4cfb-867a-f6a78c43f51c/scenario_00195499-be19-4cfb-867a-f6a78c43f51c.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00195499-be19-4cfb-867a-f6a78c43f51c/scenario_00195499-be19-4cfb-867a-f6a78c43f51c.parquet",
+      "file": "scenario_00195499-be19-4cfb-867a-f6a78c43f51c.parquet",
+      "bytes": 262891,
+      "sha256": "0154c8b7d2d22d42c181300889c754022c91bf61d32bc0be59d89edb0f0b42a0"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/001ce108-22b2-4e40-bcf3-40d22732a8c3/scenario_001ce108-22b2-4e40-bcf3-40d22732a8c3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/001ce108-22b2-4e40-bcf3-40d22732a8c3/scenario_001ce108-22b2-4e40-bcf3-40d22732a8c3.parquet",
+      "file": "scenario_001ce108-22b2-4e40-bcf3-40d22732a8c3.parquet",
+      "bytes": 62787,
+      "sha256": "9ebe8609aacf788f008a4ae7d521a6d003168fe10b0eb5406d8d35a550908fb3"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/001d7c9e-4f80-4d1d-9ad9-5b6432c4fb36/scenario_001d7c9e-4f80-4d1d-9ad9-5b6432c4fb36.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/001d7c9e-4f80-4d1d-9ad9-5b6432c4fb36/scenario_001d7c9e-4f80-4d1d-9ad9-5b6432c4fb36.parquet",
+      "file": "scenario_001d7c9e-4f80-4d1d-9ad9-5b6432c4fb36.parquet",
+      "bytes": 193441,
+      "sha256": "7170a9ca2597e41df616d193fe1596add4c0eca88791b544b9e275cc928b4bf0"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/001e7a56-f046-4f05-bd8f-ddf320079eae/scenario_001e7a56-f046-4f05-bd8f-ddf320079eae.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/001e7a56-f046-4f05-bd8f-ddf320079eae/scenario_001e7a56-f046-4f05-bd8f-ddf320079eae.parquet",
+      "file": "scenario_001e7a56-f046-4f05-bd8f-ddf320079eae.parquet",
+      "bytes": 213378,
+      "sha256": "cda8af176971da909680bfdf359e217eb2b464fb3a43b2d41f1479a184b95da9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/001f9701-34f9-4811-bcbb-8cf1a412fb0e/scenario_001f9701-34f9-4811-bcbb-8cf1a412fb0e.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/001f9701-34f9-4811-bcbb-8cf1a412fb0e/scenario_001f9701-34f9-4811-bcbb-8cf1a412fb0e.parquet",
+      "file": "scenario_001f9701-34f9-4811-bcbb-8cf1a412fb0e.parquet",
+      "bytes": 208316,
+      "sha256": "93c7960e5719648bfbd427d30461eef560939ea4434a6a422c303253b8ca9a43"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00226ff5-0ee6-43b7-8568-ffd0f357db91/scenario_00226ff5-0ee6-43b7-8568-ffd0f357db91.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00226ff5-0ee6-43b7-8568-ffd0f357db91/scenario_00226ff5-0ee6-43b7-8568-ffd0f357db91.parquet",
+      "file": "scenario_00226ff5-0ee6-43b7-8568-ffd0f357db91.parquet",
+      "bytes": 82619,
+      "sha256": "e3128bbc047616625f67a813212a91a33c7094e2010ad04f3dfa2a24453b72dc"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00230ccd-4922-4f8c-b67f-ba70d0db22d3/scenario_00230ccd-4922-4f8c-b67f-ba70d0db22d3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00230ccd-4922-4f8c-b67f-ba70d0db22d3/scenario_00230ccd-4922-4f8c-b67f-ba70d0db22d3.parquet",
+      "file": "scenario_00230ccd-4922-4f8c-b67f-ba70d0db22d3.parquet",
+      "bytes": 177005,
+      "sha256": "3f76468da2710c7dc6a12f5ec2161a13334c5fdb9759510f011dcb052d5008a9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0028b424-9a0a-4b3e-a59e-0fc183c02095/scenario_0028b424-9a0a-4b3e-a59e-0fc183c02095.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0028b424-9a0a-4b3e-a59e-0fc183c02095/scenario_0028b424-9a0a-4b3e-a59e-0fc183c02095.parquet",
+      "file": "scenario_0028b424-9a0a-4b3e-a59e-0fc183c02095.parquet",
+      "bytes": 41742,
+      "sha256": "1bc71122b1be77e5b583aee2da6a0c986de566df00be6ee0726efcb592151fe1"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/002ba35d-be70-4ce4-b15a-01a28e0ae801/scenario_002ba35d-be70-4ce4-b15a-01a28e0ae801.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/002ba35d-be70-4ce4-b15a-01a28e0ae801/scenario_002ba35d-be70-4ce4-b15a-01a28e0ae801.parquet",
+      "file": "scenario_002ba35d-be70-4ce4-b15a-01a28e0ae801.parquet",
+      "bytes": 164649,
+      "sha256": "44116190b574787cad92f348f62f97eb5b7f69cd1f983006e458aae4eb16534e"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/003363ad-fa78-45f9-a8d7-716f4ea6d586/scenario_003363ad-fa78-45f9-a8d7-716f4ea6d586.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/003363ad-fa78-45f9-a8d7-716f4ea6d586/scenario_003363ad-fa78-45f9-a8d7-716f4ea6d586.parquet",
+      "file": "scenario_003363ad-fa78-45f9-a8d7-716f4ea6d586.parquet",
+      "bytes": 132474,
+      "sha256": "4d95d59af935a4e87912b572dbf3d60599c0b7c2a98f2baeed61f7aadff93e38"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00351569-255c-433e-b97b-e2a844d1b6e0/scenario_00351569-255c-433e-b97b-e2a844d1b6e0.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00351569-255c-433e-b97b-e2a844d1b6e0/scenario_00351569-255c-433e-b97b-e2a844d1b6e0.parquet",
+      "file": "scenario_00351569-255c-433e-b97b-e2a844d1b6e0.parquet",
+      "bytes": 199854,
+      "sha256": "c0148d5fc9befa0caa19f21b2555883a3d1d98bcf26fc9803ab90c9e52d714cc"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0036b8de-9be1-4861-adcf-34671484a3c3/scenario_0036b8de-9be1-4861-adcf-34671484a3c3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0036b8de-9be1-4861-adcf-34671484a3c3/scenario_0036b8de-9be1-4861-adcf-34671484a3c3.parquet",
+      "file": "scenario_0036b8de-9be1-4861-adcf-34671484a3c3.parquet",
+      "bytes": 155770,
+      "sha256": "7514eeff40976d45a820a3673f3f2c30e405f2bcd69b905041c8b46163fc09f2"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/003a8853-461a-4fa4-9a04-be07aae9b70c/scenario_003a8853-461a-4fa4-9a04-be07aae9b70c.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/003a8853-461a-4fa4-9a04-be07aae9b70c/scenario_003a8853-461a-4fa4-9a04-be07aae9b70c.parquet",
+      "file": "scenario_003a8853-461a-4fa4-9a04-be07aae9b70c.parquet",
+      "bytes": 89860,
+      "sha256": "dc1575ca46f431be6beb9c2c2d2dd9fedfa45f12c8c1f65b0ce35e523815f7f3"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00404e6d-ff66-460e-8f22-bc61fc9f7f9d/scenario_00404e6d-ff66-460e-8f22-bc61fc9f7f9d.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00404e6d-ff66-460e-8f22-bc61fc9f7f9d/scenario_00404e6d-ff66-460e-8f22-bc61fc9f7f9d.parquet",
+      "file": "scenario_00404e6d-ff66-460e-8f22-bc61fc9f7f9d.parquet",
+      "bytes": 122912,
+      "sha256": "a7bfda0b5ca51cb4c4357e064f504541d2548ef9125bf2ae5b1e6091f432417e"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/004153a3-9385-4f91-b702-76d58a222bdb/scenario_004153a3-9385-4f91-b702-76d58a222bdb.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/004153a3-9385-4f91-b702-76d58a222bdb/scenario_004153a3-9385-4f91-b702-76d58a222bdb.parquet",
+      "file": "scenario_004153a3-9385-4f91-b702-76d58a222bdb.parquet",
+      "bytes": 129668,
+      "sha256": "a8696f8e7074db5be0033c8001c25e7005dd3bb07e024caf48ebbc28fad25ef9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00422cc5-b120-49db-982f-fc0c1e1eaf8d/scenario_00422cc5-b120-49db-982f-fc0c1e1eaf8d.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00422cc5-b120-49db-982f-fc0c1e1eaf8d/scenario_00422cc5-b120-49db-982f-fc0c1e1eaf8d.parquet",
+      "file": "scenario_00422cc5-b120-49db-982f-fc0c1e1eaf8d.parquet",
+      "bytes": 73021,
+      "sha256": "5723fa2f9e7e5188c25bfe14c2d7a97e4291ba3e038414f8f8e163c4f21fe943"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00430751-d928-472b-9944-ea55b2fb8d89/scenario_00430751-d928-472b-9944-ea55b2fb8d89.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00430751-d928-472b-9944-ea55b2fb8d89/scenario_00430751-d928-472b-9944-ea55b2fb8d89.parquet",
+      "file": "scenario_00430751-d928-472b-9944-ea55b2fb8d89.parquet",
+      "bytes": 152409,
+      "sha256": "d8f01fa5e968816c002ad5d4081aa68d77905a8604889e39de557e4df5c34985"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0044b5c0-f492-43b3-ae9c-daa8ff1c9584/scenario_0044b5c0-f492-43b3-ae9c-daa8ff1c9584.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0044b5c0-f492-43b3-ae9c-daa8ff1c9584/scenario_0044b5c0-f492-43b3-ae9c-daa8ff1c9584.parquet",
+      "file": "scenario_0044b5c0-f492-43b3-ae9c-daa8ff1c9584.parquet",
+      "bytes": 155561,
+      "sha256": "4fc8366e74b956e7cfc50878d19ced8fa5eaeac8b501e6f3005c27ae1b1ba03a"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00450480-0bcd-46b9-a48b-5337d8c9d0a3/scenario_00450480-0bcd-46b9-a48b-5337d8c9d0a3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00450480-0bcd-46b9-a48b-5337d8c9d0a3/scenario_00450480-0bcd-46b9-a48b-5337d8c9d0a3.parquet",
+      "file": "scenario_00450480-0bcd-46b9-a48b-5337d8c9d0a3.parquet",
+      "bytes": 242136,
+      "sha256": "f40f3b01a45ff43820d96407ece91f0213d6d2d7b6cefbd9715632b626bb94bc"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0046bad9-f29c-4365-bfba-a087a1075667/scenario_0046bad9-f29c-4365-bfba-a087a1075667.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0046bad9-f29c-4365-bfba-a087a1075667/scenario_0046bad9-f29c-4365-bfba-a087a1075667.parquet",
+      "file": "scenario_0046bad9-f29c-4365-bfba-a087a1075667.parquet",
+      "bytes": 76308,
+      "sha256": "9dbc1351cabcd4258cd0ddc6fcd75fc0d0df4c7b3a7fbfb04601b0e02a417328"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0051a8c9-e50e-4cde-b003-1a103de0fdb1/scenario_0051a8c9-e50e-4cde-b003-1a103de0fdb1.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0051a8c9-e50e-4cde-b003-1a103de0fdb1/scenario_0051a8c9-e50e-4cde-b003-1a103de0fdb1.parquet",
+      "file": "scenario_0051a8c9-e50e-4cde-b003-1a103de0fdb1.parquet",
+      "bytes": 94290,
+      "sha256": "b7ad4c60067ca17f7384c4d96d64a91da78dd928c5bc0eea469459094bf33f25"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00546066-20ea-4012-854a-fcdb47973b92/scenario_00546066-20ea-4012-854a-fcdb47973b92.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00546066-20ea-4012-854a-fcdb47973b92/scenario_00546066-20ea-4012-854a-fcdb47973b92.parquet",
+      "file": "scenario_00546066-20ea-4012-854a-fcdb47973b92.parquet",
+      "bytes": 95296,
+      "sha256": "24ba9de226eb124281b72d5159724186ca577018349b9e1aba6c8fa63ebf48ac"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0058ed53-93bf-42a7-9bba-6df3f6ce20f5/scenario_0058ed53-93bf-42a7-9bba-6df3f6ce20f5.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0058ed53-93bf-42a7-9bba-6df3f6ce20f5/scenario_0058ed53-93bf-42a7-9bba-6df3f6ce20f5.parquet",
+      "file": "scenario_0058ed53-93bf-42a7-9bba-6df3f6ce20f5.parquet",
+      "bytes": 264314,
+      "sha256": "076785e5dda734cd275ea399ed2b3811d915586c5b4b9c5989444f055912c837"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/005b26cb-7ddc-4e9e-b2d1-55c49f1c6e85/scenario_005b26cb-7ddc-4e9e-b2d1-55c49f1c6e85.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/005b26cb-7ddc-4e9e-b2d1-55c49f1c6e85/scenario_005b26cb-7ddc-4e9e-b2d1-55c49f1c6e85.parquet",
+      "file": "scenario_005b26cb-7ddc-4e9e-b2d1-55c49f1c6e85.parquet",
+      "bytes": 186096,
+      "sha256": "280d503a5ce3c09b4138bc835ea17d21a9d10d7c9da7d2a02fae29eb293ca256"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/005f3e26-75cb-43a5-b61a-89343d490fdf/scenario_005f3e26-75cb-43a5-b61a-89343d490fdf.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/005f3e26-75cb-43a5-b61a-89343d490fdf/scenario_005f3e26-75cb-43a5-b61a-89343d490fdf.parquet",
+      "file": "scenario_005f3e26-75cb-43a5-b61a-89343d490fdf.parquet",
+      "bytes": 212420,
+      "sha256": "a3c4871939f1a835ad2b50646db129f6182247117c6d00a9912e1208a4a05e3e"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00629110-b592-4d2a-8524-b5f2e9661048/scenario_00629110-b592-4d2a-8524-b5f2e9661048.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00629110-b592-4d2a-8524-b5f2e9661048/scenario_00629110-b592-4d2a-8524-b5f2e9661048.parquet",
+      "file": "scenario_00629110-b592-4d2a-8524-b5f2e9661048.parquet",
+      "bytes": 98763,
+      "sha256": "5d3bfebe52f28a8bba36be8ff15b42f9e0333a4651708331f47f38009431524d"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0066f16d-cee1-44db-aa9d-aca38e9761f4/scenario_0066f16d-cee1-44db-aa9d-aca38e9761f4.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0066f16d-cee1-44db-aa9d-aca38e9761f4/scenario_0066f16d-cee1-44db-aa9d-aca38e9761f4.parquet",
+      "file": "scenario_0066f16d-cee1-44db-aa9d-aca38e9761f4.parquet",
+      "bytes": 100568,
+      "sha256": "fbf2921121db0316a8872043bba9bc2a12058653d00413e74deb214561f1f43b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0067cf62-4775-425e-8edc-28fd8622b920/scenario_0067cf62-4775-425e-8edc-28fd8622b920.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0067cf62-4775-425e-8edc-28fd8622b920/scenario_0067cf62-4775-425e-8edc-28fd8622b920.parquet",
+      "file": "scenario_0067cf62-4775-425e-8edc-28fd8622b920.parquet",
+      "bytes": 167802,
+      "sha256": "10761c56d937347ede25bab7c083ff30a63e977aa273b580c661d07619fd6164"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0072a11c-c3f5-4d44-b4e1-04117bc4100b/scenario_0072a11c-c3f5-4d44-b4e1-04117bc4100b.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0072a11c-c3f5-4d44-b4e1-04117bc4100b/scenario_0072a11c-c3f5-4d44-b4e1-04117bc4100b.parquet",
+      "file": "scenario_0072a11c-c3f5-4d44-b4e1-04117bc4100b.parquet",
+      "bytes": 102003,
+      "sha256": "ae640422065fc9dcf37f4a4c175d0c15de53fccc20bc36a6b9146a372c877600"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/007408b9-948f-42c9-aed4-a03339f3aa4f/scenario_007408b9-948f-42c9-aed4-a03339f3aa4f.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/007408b9-948f-42c9-aed4-a03339f3aa4f/scenario_007408b9-948f-42c9-aed4-a03339f3aa4f.parquet",
+      "file": "scenario_007408b9-948f-42c9-aed4-a03339f3aa4f.parquet",
+      "bytes": 92469,
+      "sha256": "0cbd5fb3beea3475b66c13dbb0920a3f459bb9bd3859bef0a609c493cbce9def"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/007471ae-7006-49ec-903d-a9465c4fa379/scenario_007471ae-7006-49ec-903d-a9465c4fa379.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/007471ae-7006-49ec-903d-a9465c4fa379/scenario_007471ae-7006-49ec-903d-a9465c4fa379.parquet",
+      "file": "scenario_007471ae-7006-49ec-903d-a9465c4fa379.parquet",
+      "bytes": 122011,
+      "sha256": "2250c21a4f8c608168db27ed931446f758e318cedbbb77745fc82094cc56669b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/007e6152-fb08-4a1b-be8c-d60e4d8635ce/scenario_007e6152-fb08-4a1b-be8c-d60e4d8635ce.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/007e6152-fb08-4a1b-be8c-d60e4d8635ce/scenario_007e6152-fb08-4a1b-be8c-d60e4d8635ce.parquet",
+      "file": "scenario_007e6152-fb08-4a1b-be8c-d60e4d8635ce.parquet",
+      "bytes": 111061,
+      "sha256": "36c532b276506604f1c24f44afccaf355eb4de4fb6828faa910ddc0e6e1ae255"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/008415aa-6a7d-4c51-9b82-f29bc76f7f28/scenario_008415aa-6a7d-4c51-9b82-f29bc76f7f28.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/008415aa-6a7d-4c51-9b82-f29bc76f7f28/scenario_008415aa-6a7d-4c51-9b82-f29bc76f7f28.parquet",
+      "file": "scenario_008415aa-6a7d-4c51-9b82-f29bc76f7f28.parquet",
+      "bytes": 253234,
+      "sha256": "d2274ce865eebf251b57339b93eadd137212066ee35977ebff000dba1eac1cfe"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0085e780-a3b2-4432-a64f-56e7b3394432/scenario_0085e780-a3b2-4432-a64f-56e7b3394432.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0085e780-a3b2-4432-a64f-56e7b3394432/scenario_0085e780-a3b2-4432-a64f-56e7b3394432.parquet",
+      "file": "scenario_0085e780-a3b2-4432-a64f-56e7b3394432.parquet",
+      "bytes": 187332,
+      "sha256": "d15abd2a824d424667b045f5c4550e729cc79fe0c9496ed4804fd23126f4c520"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00868013-e5b7-4b75-b30c-045bb4244627/scenario_00868013-e5b7-4b75-b30c-045bb4244627.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00868013-e5b7-4b75-b30c-045bb4244627/scenario_00868013-e5b7-4b75-b30c-045bb4244627.parquet",
+      "file": "scenario_00868013-e5b7-4b75-b30c-045bb4244627.parquet",
+      "bytes": 50825,
+      "sha256": "7d3a440855e2c3694fc73a5f996a323104d40ee22c785eeafe79a95ef13c3349"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/008e9697-bbd5-46fa-a2df-bcda736bab18/scenario_008e9697-bbd5-46fa-a2df-bcda736bab18.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/008e9697-bbd5-46fa-a2df-bcda736bab18/scenario_008e9697-bbd5-46fa-a2df-bcda736bab18.parquet",
+      "file": "scenario_008e9697-bbd5-46fa-a2df-bcda736bab18.parquet",
+      "bytes": 148908,
+      "sha256": "6fdf8abe6e6109725f77f010da97560f495922550731622aa643f58ea3e39ed9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/008eacb9-eef8-4781-96e4-7446926a2fea/scenario_008eacb9-eef8-4781-96e4-7446926a2fea.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/008eacb9-eef8-4781-96e4-7446926a2fea/scenario_008eacb9-eef8-4781-96e4-7446926a2fea.parquet",
+      "file": "scenario_008eacb9-eef8-4781-96e4-7446926a2fea.parquet",
+      "bytes": 157177,
+      "sha256": "26ed9515556e53997360632b505a0425fb4e79370383cea6ab216bb64e810f9d"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0091bad9-e7b2-4c07-aa12-6b5fd03c63d2/scenario_0091bad9-e7b2-4c07-aa12-6b5fd03c63d2.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0091bad9-e7b2-4c07-aa12-6b5fd03c63d2/scenario_0091bad9-e7b2-4c07-aa12-6b5fd03c63d2.parquet",
+      "file": "scenario_0091bad9-e7b2-4c07-aa12-6b5fd03c63d2.parquet",
+      "bytes": 43695,
+      "sha256": "03930a0e553e1ea393d9eed0d627180ec55e637e1432694f9931a85a7be13c9c"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0092658a-5705-4a48-9de0-195b430c03f8/scenario_0092658a-5705-4a48-9de0-195b430c03f8.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0092658a-5705-4a48-9de0-195b430c03f8/scenario_0092658a-5705-4a48-9de0-195b430c03f8.parquet",
+      "file": "scenario_0092658a-5705-4a48-9de0-195b430c03f8.parquet",
+      "bytes": 101187,
+      "sha256": "f74838b129e33a74d00231d420c9e3926aa262a2a29cdd5e86638391861eb17f"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00976f6f-59fa-4fad-ba0b-828cce074d97/scenario_00976f6f-59fa-4fad-ba0b-828cce074d97.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00976f6f-59fa-4fad-ba0b-828cce074d97/scenario_00976f6f-59fa-4fad-ba0b-828cce074d97.parquet",
+      "file": "scenario_00976f6f-59fa-4fad-ba0b-828cce074d97.parquet",
+      "bytes": 100326,
+      "sha256": "4afe3d0bb19ae56ca4d029d2d1d9d70d0eb6f4aee110aa4fdc8bca28029dbd91"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/009ba352-ea89-45cb-83e8-c8e65148d87e/scenario_009ba352-ea89-45cb-83e8-c8e65148d87e.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/009ba352-ea89-45cb-83e8-c8e65148d87e/scenario_009ba352-ea89-45cb-83e8-c8e65148d87e.parquet",
+      "file": "scenario_009ba352-ea89-45cb-83e8-c8e65148d87e.parquet",
+      "bytes": 74331,
+      "sha256": "1a6f69d168a5b7290652dacc980d8ceaebb914f2c6f61c7d7e0618f291eae887"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/009cf3d3-fd2c-4361-b926-eca40c138446/scenario_009cf3d3-fd2c-4361-b926-eca40c138446.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/009cf3d3-fd2c-4361-b926-eca40c138446/scenario_009cf3d3-fd2c-4361-b926-eca40c138446.parquet",
+      "file": "scenario_009cf3d3-fd2c-4361-b926-eca40c138446.parquet",
+      "bytes": 160492,
+      "sha256": "39a7b5a2dacd87d515106905d20150d73000dea50414b88e60d651aec8fc071a"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00a0ec58-1fb9-4a2b-bfd7-f4e5da7a9eff/scenario_00a0ec58-1fb9-4a2b-bfd7-f4e5da7a9eff.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00a0ec58-1fb9-4a2b-bfd7-f4e5da7a9eff/scenario_00a0ec58-1fb9-4a2b-bfd7-f4e5da7a9eff.parquet",
+      "file": "scenario_00a0ec58-1fb9-4a2b-bfd7-f4e5da7a9eff.parquet",
+      "bytes": 165835,
+      "sha256": "6ef4f153e16593dd694263df4eae6cb791e4d6f2d198bb011cf3a44b4f485cc9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00a28ba6-9343-42b7-9458-5aebdf1a7360/scenario_00a28ba6-9343-42b7-9458-5aebdf1a7360.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00a28ba6-9343-42b7-9458-5aebdf1a7360/scenario_00a28ba6-9343-42b7-9458-5aebdf1a7360.parquet",
+      "file": "scenario_00a28ba6-9343-42b7-9458-5aebdf1a7360.parquet",
+      "bytes": 193923,
+      "sha256": "de5b18c154755c3ee7d1011ec57437bfac36293eb37aa6971da27eeece1de470"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00a50e9f-63a1-4678-a4fe-c6109721ecba/scenario_00a50e9f-63a1-4678-a4fe-c6109721ecba.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00a50e9f-63a1-4678-a4fe-c6109721ecba/scenario_00a50e9f-63a1-4678-a4fe-c6109721ecba.parquet",
+      "file": "scenario_00a50e9f-63a1-4678-a4fe-c6109721ecba.parquet",
+      "bytes": 60044,
+      "sha256": "0a9ef974ee20f86e088fbc5918db9812180167614eeaf6945e123b037a037364"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00a5d0a7-3be4-4008-a77b-4eebe77b1480/scenario_00a5d0a7-3be4-4008-a77b-4eebe77b1480.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00a5d0a7-3be4-4008-a77b-4eebe77b1480/scenario_00a5d0a7-3be4-4008-a77b-4eebe77b1480.parquet",
+      "file": "scenario_00a5d0a7-3be4-4008-a77b-4eebe77b1480.parquet",
+      "bytes": 132750,
+      "sha256": "01cc1ffc6445036ac690fa35506ff4b28c500f27e6f4ca0bc0166b042bd1a5b4"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00a8fc17-d464-47c6-95f9-4e99a9a6fe86/scenario_00a8fc17-d464-47c6-95f9-4e99a9a6fe86.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00a8fc17-d464-47c6-95f9-4e99a9a6fe86/scenario_00a8fc17-d464-47c6-95f9-4e99a9a6fe86.parquet",
+      "file": "scenario_00a8fc17-d464-47c6-95f9-4e99a9a6fe86.parquet",
+      "bytes": 117380,
+      "sha256": "87fc7a39a619447414bf8f98be056455337b3b8b8064073783e1b8dbb5ffaf55"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00a9541f-a00c-45c6-9071-dec34f5f818b/scenario_00a9541f-a00c-45c6-9071-dec34f5f818b.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00a9541f-a00c-45c6-9071-dec34f5f818b/scenario_00a9541f-a00c-45c6-9071-dec34f5f818b.parquet",
+      "file": "scenario_00a9541f-a00c-45c6-9071-dec34f5f818b.parquet",
+      "bytes": 150239,
+      "sha256": "1d28c84654d1b01610c7f41e33957e0404ca69e3609e99df68013d50dc19501b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00aa433e-6dcf-4919-b660-309d6bd75447/scenario_00aa433e-6dcf-4919-b660-309d6bd75447.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00aa433e-6dcf-4919-b660-309d6bd75447/scenario_00aa433e-6dcf-4919-b660-309d6bd75447.parquet",
+      "file": "scenario_00aa433e-6dcf-4919-b660-309d6bd75447.parquet",
+      "bytes": 114346,
+      "sha256": "db4c827540efa76b426239fbebc7efb9c7b75212ccec227d8f4e026ebec13bf7"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00abf9e5-4bc0-4b90-a3da-9d858df18f7d/scenario_00abf9e5-4bc0-4b90-a3da-9d858df18f7d.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00abf9e5-4bc0-4b90-a3da-9d858df18f7d/scenario_00abf9e5-4bc0-4b90-a3da-9d858df18f7d.parquet",
+      "file": "scenario_00abf9e5-4bc0-4b90-a3da-9d858df18f7d.parquet",
+      "bytes": 71579,
+      "sha256": "889515f3572f7df428b76d50bd2eee2a1a38d5121a482bab2c9d76cf6b995cf4"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00b2262d-bb33-4756-963e-4a5c87d8bd5d/scenario_00b2262d-bb33-4756-963e-4a5c87d8bd5d.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00b2262d-bb33-4756-963e-4a5c87d8bd5d/scenario_00b2262d-bb33-4756-963e-4a5c87d8bd5d.parquet",
+      "file": "scenario_00b2262d-bb33-4756-963e-4a5c87d8bd5d.parquet",
+      "bytes": 166014,
+      "sha256": "5152e13aeb178c38d74247f52d27027f5db89d7923d4f97897041f4023244ce1"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00b265e1-3c7e-44fc-b725-29d4f2cde0bd/scenario_00b265e1-3c7e-44fc-b725-29d4f2cde0bd.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00b265e1-3c7e-44fc-b725-29d4f2cde0bd/scenario_00b265e1-3c7e-44fc-b725-29d4f2cde0bd.parquet",
+      "file": "scenario_00b265e1-3c7e-44fc-b725-29d4f2cde0bd.parquet",
+      "bytes": 123910,
+      "sha256": "b1c0237d403cd1565ba42b415cddb42f938fd3610727400e4e8c69818ce45cce"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00b37268-eeb0-4a5b-8241-e33a530fe267/scenario_00b37268-eeb0-4a5b-8241-e33a530fe267.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00b37268-eeb0-4a5b-8241-e33a530fe267/scenario_00b37268-eeb0-4a5b-8241-e33a530fe267.parquet",
+      "file": "scenario_00b37268-eeb0-4a5b-8241-e33a530fe267.parquet",
+      "bytes": 183395,
+      "sha256": "60aeb9885cbfb8aabdeff465b273c10f74afb87fa8cc697ff172bf2cb07b76d6"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00b3a6f5-32ce-4d91-b320-10284ab921be/scenario_00b3a6f5-32ce-4d91-b320-10284ab921be.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00b3a6f5-32ce-4d91-b320-10284ab921be/scenario_00b3a6f5-32ce-4d91-b320-10284ab921be.parquet",
+      "file": "scenario_00b3a6f5-32ce-4d91-b320-10284ab921be.parquet",
+      "bytes": 93399,
+      "sha256": "e3bfea8cb8c6bb989d16a06c5ac8986466fd844b9e982ac3611d6b5a635b55cf"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00b87c67-701e-40e4-a1b7-002717d0a4e5/scenario_00b87c67-701e-40e4-a1b7-002717d0a4e5.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00b87c67-701e-40e4-a1b7-002717d0a4e5/scenario_00b87c67-701e-40e4-a1b7-002717d0a4e5.parquet",
+      "file": "scenario_00b87c67-701e-40e4-a1b7-002717d0a4e5.parquet",
+      "bytes": 136580,
+      "sha256": "f2f3680ef701dcffc25014d66c8bd18990632e7b040367534a40bac6e5dab6d0"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00bb46d3-2f4e-4c7b-95bd-51a65ff9670e/scenario_00bb46d3-2f4e-4c7b-95bd-51a65ff9670e.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00bb46d3-2f4e-4c7b-95bd-51a65ff9670e/scenario_00bb46d3-2f4e-4c7b-95bd-51a65ff9670e.parquet",
+      "file": "scenario_00bb46d3-2f4e-4c7b-95bd-51a65ff9670e.parquet",
+      "bytes": 148349,
+      "sha256": "aad7a63c5362f91802d38874aeac41ebdf03f4c200b5df72f85ce71a03a4bb61"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00bb5f2e-c964-4fcd-9c6a-4353a7baed6e/scenario_00bb5f2e-c964-4fcd-9c6a-4353a7baed6e.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00bb5f2e-c964-4fcd-9c6a-4353a7baed6e/scenario_00bb5f2e-c964-4fcd-9c6a-4353a7baed6e.parquet",
+      "file": "scenario_00bb5f2e-c964-4fcd-9c6a-4353a7baed6e.parquet",
+      "bytes": 77845,
+      "sha256": "915b0cd38886ae163fe3ad4abaddb262c9c80d93970c36efa90fdf2ca7f32285"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00bd1af3-e5a4-4042-b0dd-627f6cc66ee8/scenario_00bd1af3-e5a4-4042-b0dd-627f6cc66ee8.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00bd1af3-e5a4-4042-b0dd-627f6cc66ee8/scenario_00bd1af3-e5a4-4042-b0dd-627f6cc66ee8.parquet",
+      "file": "scenario_00bd1af3-e5a4-4042-b0dd-627f6cc66ee8.parquet",
+      "bytes": 257547,
+      "sha256": "617178c2798ec75504cc7c2ff69233f5f8cc424188e0e9d1b31dd24dfe2b6f45"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00c1667c-0e02-44b2-8e5e-29dc81dfd323/scenario_00c1667c-0e02-44b2-8e5e-29dc81dfd323.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00c1667c-0e02-44b2-8e5e-29dc81dfd323/scenario_00c1667c-0e02-44b2-8e5e-29dc81dfd323.parquet",
+      "file": "scenario_00c1667c-0e02-44b2-8e5e-29dc81dfd323.parquet",
+      "bytes": 73355,
+      "sha256": "7c87ef58bdc41855cd82b483948f95547590e51f01baab67d76c0fe697bba709"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00cf7a09-b98d-4c87-921a-830066a07100/scenario_00cf7a09-b98d-4c87-921a-830066a07100.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00cf7a09-b98d-4c87-921a-830066a07100/scenario_00cf7a09-b98d-4c87-921a-830066a07100.parquet",
+      "file": "scenario_00cf7a09-b98d-4c87-921a-830066a07100.parquet",
+      "bytes": 78230,
+      "sha256": "af8c363cee69ebbff90fe16273703dadc75de1f8b8856ef6cacf7bef734ed3ec"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00d95e80-1f97-48ef-8bf6-651e6c93678f/scenario_00d95e80-1f97-48ef-8bf6-651e6c93678f.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00d95e80-1f97-48ef-8bf6-651e6c93678f/scenario_00d95e80-1f97-48ef-8bf6-651e6c93678f.parquet",
+      "file": "scenario_00d95e80-1f97-48ef-8bf6-651e6c93678f.parquet",
+      "bytes": 194515,
+      "sha256": "025f524a6232fa9ae5005fb8818be55818b1ad83401d8751a2ce79e05d78dbf8"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00d9f613-2637-4665-b640-15ca2219929a/scenario_00d9f613-2637-4665-b640-15ca2219929a.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00d9f613-2637-4665-b640-15ca2219929a/scenario_00d9f613-2637-4665-b640-15ca2219929a.parquet",
+      "file": "scenario_00d9f613-2637-4665-b640-15ca2219929a.parquet",
+      "bytes": 203438,
+      "sha256": "db9c20e2c4d7cb5aed91d76c23931354a28a95409571b9174ccedeb1662295b0"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00dd0b81-388f-40fd-a8f5-82d05d566cf5/scenario_00dd0b81-388f-40fd-a8f5-82d05d566cf5.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00dd0b81-388f-40fd-a8f5-82d05d566cf5/scenario_00dd0b81-388f-40fd-a8f5-82d05d566cf5.parquet",
+      "file": "scenario_00dd0b81-388f-40fd-a8f5-82d05d566cf5.parquet",
+      "bytes": 169197,
+      "sha256": "0bda169a401fb87bd208e22293cea54fddf3c01bee8914e53547683a3938b497"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00ddb469-aea8-443b-a4f9-a5acff486b77/scenario_00ddb469-aea8-443b-a4f9-a5acff486b77.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00ddb469-aea8-443b-a4f9-a5acff486b77/scenario_00ddb469-aea8-443b-a4f9-a5acff486b77.parquet",
+      "file": "scenario_00ddb469-aea8-443b-a4f9-a5acff486b77.parquet",
+      "bytes": 67692,
+      "sha256": "6b6732a425228c1021fb2a1f78b57fde541e48cb97981a2a078594eb334ea0c5"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00de80df-9dfe-4ef7-a17f-7855caf9878f/scenario_00de80df-9dfe-4ef7-a17f-7855caf9878f.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00de80df-9dfe-4ef7-a17f-7855caf9878f/scenario_00de80df-9dfe-4ef7-a17f-7855caf9878f.parquet",
+      "file": "scenario_00de80df-9dfe-4ef7-a17f-7855caf9878f.parquet",
+      "bytes": 99141,
+      "sha256": "0c25c2c77325ff867add0d99dae5d87746cc64da30f2d72f3760a074148edf6b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00e14259-7419-4f92-9699-835bc4f62536/scenario_00e14259-7419-4f92-9699-835bc4f62536.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00e14259-7419-4f92-9699-835bc4f62536/scenario_00e14259-7419-4f92-9699-835bc4f62536.parquet",
+      "file": "scenario_00e14259-7419-4f92-9699-835bc4f62536.parquet",
+      "bytes": 73451,
+      "sha256": "07ac1492e97d8cbeed4a844abaa4e86af5cde61967bc6cc6485db38f328235c5"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00e194d5-57e3-4cd5-ba8d-61f89acea8c1/scenario_00e194d5-57e3-4cd5-ba8d-61f89acea8c1.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00e194d5-57e3-4cd5-ba8d-61f89acea8c1/scenario_00e194d5-57e3-4cd5-ba8d-61f89acea8c1.parquet",
+      "file": "scenario_00e194d5-57e3-4cd5-ba8d-61f89acea8c1.parquet",
+      "bytes": 92424,
+      "sha256": "215488044d9d3519512d2f27f6b2b82830e4c8ff57e14d08bf9ba72373c44456"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00e21119-f350-4664-b77e-18823533a1a6/scenario_00e21119-f350-4664-b77e-18823533a1a6.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00e21119-f350-4664-b77e-18823533a1a6/scenario_00e21119-f350-4664-b77e-18823533a1a6.parquet",
+      "file": "scenario_00e21119-f350-4664-b77e-18823533a1a6.parquet",
+      "bytes": 249976,
+      "sha256": "39bcd21e70328999d8ab9d08145f722250aada7e19f8c404c2feeff9428980e9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00e2cd17-25bc-42f2-8f33-17ae24d17a5f/scenario_00e2cd17-25bc-42f2-8f33-17ae24d17a5f.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00e2cd17-25bc-42f2-8f33-17ae24d17a5f/scenario_00e2cd17-25bc-42f2-8f33-17ae24d17a5f.parquet",
+      "file": "scenario_00e2cd17-25bc-42f2-8f33-17ae24d17a5f.parquet",
+      "bytes": 99495,
+      "sha256": "f024e634dc0c9b7e2cdfb856c6d378b6b00adc862c5b8175d9fa18bfb661ec54"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00e452e1-1a79-4327-abb2-fbbe0097b1b5/scenario_00e452e1-1a79-4327-abb2-fbbe0097b1b5.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00e452e1-1a79-4327-abb2-fbbe0097b1b5/scenario_00e452e1-1a79-4327-abb2-fbbe0097b1b5.parquet",
+      "file": "scenario_00e452e1-1a79-4327-abb2-fbbe0097b1b5.parquet",
+      "bytes": 163469,
+      "sha256": "999d0efb017e74b1d21b255a101c6778b58a5530b39ab0ad40c4e4e36c6004c9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00e988db-319b-45b1-b16d-ccbbeaeb07cc/scenario_00e988db-319b-45b1-b16d-ccbbeaeb07cc.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00e988db-319b-45b1-b16d-ccbbeaeb07cc/scenario_00e988db-319b-45b1-b16d-ccbbeaeb07cc.parquet",
+      "file": "scenario_00e988db-319b-45b1-b16d-ccbbeaeb07cc.parquet",
+      "bytes": 138384,
+      "sha256": "b3c45717b3e8bff63dc1a0d30bd7963861e6947623f3376236248086c7e1829e"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00ea15e0-d833-4d56-8b67-c640fefc81ee/scenario_00ea15e0-d833-4d56-8b67-c640fefc81ee.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00ea15e0-d833-4d56-8b67-c640fefc81ee/scenario_00ea15e0-d833-4d56-8b67-c640fefc81ee.parquet",
+      "file": "scenario_00ea15e0-d833-4d56-8b67-c640fefc81ee.parquet",
+      "bytes": 310027,
+      "sha256": "d8b6389862372485bf7197e977962ed7e7b2f6310ed07e56c50f5de943bc168b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00eb04c6-a59e-4ff4-9d26-325b629b212b/scenario_00eb04c6-a59e-4ff4-9d26-325b629b212b.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00eb04c6-a59e-4ff4-9d26-325b629b212b/scenario_00eb04c6-a59e-4ff4-9d26-325b629b212b.parquet",
+      "file": "scenario_00eb04c6-a59e-4ff4-9d26-325b629b212b.parquet",
+      "bytes": 180055,
+      "sha256": "122c8017b88800ec8054cbe87c00d16a4d4081b8fa9596f12225ba0b85399226"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00eb27a5-f716-4f7f-a877-113550040df3/scenario_00eb27a5-f716-4f7f-a877-113550040df3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00eb27a5-f716-4f7f-a877-113550040df3/scenario_00eb27a5-f716-4f7f-a877-113550040df3.parquet",
+      "file": "scenario_00eb27a5-f716-4f7f-a877-113550040df3.parquet",
+      "bytes": 94220,
+      "sha256": "4c07d4912dc840b996441501ce291227573c9ddcff5cd4592bd073854f7e5c08"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00ef7d7b-4709-4429-8714-48cfea6b4dde/scenario_00ef7d7b-4709-4429-8714-48cfea6b4dde.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00ef7d7b-4709-4429-8714-48cfea6b4dde/scenario_00ef7d7b-4709-4429-8714-48cfea6b4dde.parquet",
+      "file": "scenario_00ef7d7b-4709-4429-8714-48cfea6b4dde.parquet",
+      "bytes": 100420,
+      "sha256": "7e663550658a30e1d2996de0ba792ba09358bdc59eb7c5855b461bf0b029c7c9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00f0977f-caf9-4781-b2b6-9747cbb7e7a3/scenario_00f0977f-caf9-4781-b2b6-9747cbb7e7a3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00f0977f-caf9-4781-b2b6-9747cbb7e7a3/scenario_00f0977f-caf9-4781-b2b6-9747cbb7e7a3.parquet",
+      "file": "scenario_00f0977f-caf9-4781-b2b6-9747cbb7e7a3.parquet",
+      "bytes": 85906,
+      "sha256": "431aee71a45f4f6ab1a1e0354530aa6db0cf1a9d60603c86a433744774ca3fc2"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00f1879f-ec21-4a4c-9c7b-84648379249b/scenario_00f1879f-ec21-4a4c-9c7b-84648379249b.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00f1879f-ec21-4a4c-9c7b-84648379249b/scenario_00f1879f-ec21-4a4c-9c7b-84648379249b.parquet",
+      "file": "scenario_00f1879f-ec21-4a4c-9c7b-84648379249b.parquet",
+      "bytes": 290847,
+      "sha256": "2898ce8acba4bc441d8c71de2768688dc2323b28845232e6de0d3f0802b76845"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00f4189b-4296-4f07-a2b5-787c0db651ff/scenario_00f4189b-4296-4f07-a2b5-787c0db651ff.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00f4189b-4296-4f07-a2b5-787c0db651ff/scenario_00f4189b-4296-4f07-a2b5-787c0db651ff.parquet",
+      "file": "scenario_00f4189b-4296-4f07-a2b5-787c0db651ff.parquet",
+      "bytes": 132010,
+      "sha256": "2f45167b6b36d47280e915529469fc1ad0b2df40a4871e4c2b9a2ab58f5b8957"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00f65fe7-7d7c-4feb-9618-2742362cc12f/scenario_00f65fe7-7d7c-4feb-9618-2742362cc12f.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00f65fe7-7d7c-4feb-9618-2742362cc12f/scenario_00f65fe7-7d7c-4feb-9618-2742362cc12f.parquet",
+      "file": "scenario_00f65fe7-7d7c-4feb-9618-2742362cc12f.parquet",
+      "bytes": 146262,
+      "sha256": "7d922b013001cd14693185f154dec334532b43f12d26be2c628a4b056106118e"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/00faa003-edc2-4184-b159-26155d40fdcb/scenario_00faa003-edc2-4184-b159-26155d40fdcb.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/00faa003-edc2-4184-b159-26155d40fdcb/scenario_00faa003-edc2-4184-b159-26155d40fdcb.parquet",
+      "file": "scenario_00faa003-edc2-4184-b159-26155d40fdcb.parquet",
+      "bytes": 183254,
+      "sha256": "0e10539fb9f55f22d87af8d2b2c6e8cbf6d367a2ce1f0c9f6f999a00c7409d16"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01069700-248e-4881-843a-d41206389020/scenario_01069700-248e-4881-843a-d41206389020.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01069700-248e-4881-843a-d41206389020/scenario_01069700-248e-4881-843a-d41206389020.parquet",
+      "file": "scenario_01069700-248e-4881-843a-d41206389020.parquet",
+      "bytes": 229051,
+      "sha256": "d1c64f00c42382486e509c6a701958903f3ade121777ca6d78659c16f6ab8705"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01097a43-cccc-4ea1-97f7-c24bd10a8234/scenario_01097a43-cccc-4ea1-97f7-c24bd10a8234.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01097a43-cccc-4ea1-97f7-c24bd10a8234/scenario_01097a43-cccc-4ea1-97f7-c24bd10a8234.parquet",
+      "file": "scenario_01097a43-cccc-4ea1-97f7-c24bd10a8234.parquet",
+      "bytes": 155063,
+      "sha256": "3633a27343329170611ca3f2f1b65b4d87590b93d7bc2e2bf8fd754f0f401dc3"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0109ca7d-7ec2-4530-bfb1-4c7d1feb892d/scenario_0109ca7d-7ec2-4530-bfb1-4c7d1feb892d.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0109ca7d-7ec2-4530-bfb1-4c7d1feb892d/scenario_0109ca7d-7ec2-4530-bfb1-4c7d1feb892d.parquet",
+      "file": "scenario_0109ca7d-7ec2-4530-bfb1-4c7d1feb892d.parquet",
+      "bytes": 133741,
+      "sha256": "e40cae2487f211d3ca78d6934147ee394cadd1f37ff31f65f853044592a61f10"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/010cc179-827b-433c-a14d-c2b27ee9ded7/scenario_010cc179-827b-433c-a14d-c2b27ee9ded7.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/010cc179-827b-433c-a14d-c2b27ee9ded7/scenario_010cc179-827b-433c-a14d-c2b27ee9ded7.parquet",
+      "file": "scenario_010cc179-827b-433c-a14d-c2b27ee9ded7.parquet",
+      "bytes": 78394,
+      "sha256": "c648e348a0cf4801f635c4011a19d6a53de3ec1d1bc79d12f403e3253cb09693"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01154df6-1058-404c-91eb-e78992da5a38/scenario_01154df6-1058-404c-91eb-e78992da5a38.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01154df6-1058-404c-91eb-e78992da5a38/scenario_01154df6-1058-404c-91eb-e78992da5a38.parquet",
+      "file": "scenario_01154df6-1058-404c-91eb-e78992da5a38.parquet",
+      "bytes": 95272,
+      "sha256": "2a9b053f5077ebc347e551bcc8a59c124310ef6c5097b5c9296ba5dba827bdda"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0119275b-35ba-48d9-9cde-cb72f2849423/scenario_0119275b-35ba-48d9-9cde-cb72f2849423.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0119275b-35ba-48d9-9cde-cb72f2849423/scenario_0119275b-35ba-48d9-9cde-cb72f2849423.parquet",
+      "file": "scenario_0119275b-35ba-48d9-9cde-cb72f2849423.parquet",
+      "bytes": 140329,
+      "sha256": "da72b3c692741ba251c1fdae265d923542f60e6aaf56dda9a1efe4681906eb73"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/011d6552-93e1-4766-a2ac-8209ef17f9c9/scenario_011d6552-93e1-4766-a2ac-8209ef17f9c9.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/011d6552-93e1-4766-a2ac-8209ef17f9c9/scenario_011d6552-93e1-4766-a2ac-8209ef17f9c9.parquet",
+      "file": "scenario_011d6552-93e1-4766-a2ac-8209ef17f9c9.parquet",
+      "bytes": 129184,
+      "sha256": "c698d5b4df41a40931aba844229138c432dba4ebe2a69af843c0b9f9b2a031d6"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/011edc25-d8b7-4471-a2dc-9d44231f1b62/scenario_011edc25-d8b7-4471-a2dc-9d44231f1b62.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/011edc25-d8b7-4471-a2dc-9d44231f1b62/scenario_011edc25-d8b7-4471-a2dc-9d44231f1b62.parquet",
+      "file": "scenario_011edc25-d8b7-4471-a2dc-9d44231f1b62.parquet",
+      "bytes": 224851,
+      "sha256": "3ace04edda8a8ca6d5ee4bb5adce5d60138d4aff9d6b965b05903fd678a359bc"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/011f5450-0124-43f2-8374-9322c5f99c50/scenario_011f5450-0124-43f2-8374-9322c5f99c50.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/011f5450-0124-43f2-8374-9322c5f99c50/scenario_011f5450-0124-43f2-8374-9322c5f99c50.parquet",
+      "file": "scenario_011f5450-0124-43f2-8374-9322c5f99c50.parquet",
+      "bytes": 235360,
+      "sha256": "3a7671b1f4aac0ba9cb6bd4199c76d61ad5d74a5475db15a43612d2d75b465ca"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0123336f-afc6-4704-9ed0-efc5bea121f0/scenario_0123336f-afc6-4704-9ed0-efc5bea121f0.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0123336f-afc6-4704-9ed0-efc5bea121f0/scenario_0123336f-afc6-4704-9ed0-efc5bea121f0.parquet",
+      "file": "scenario_0123336f-afc6-4704-9ed0-efc5bea121f0.parquet",
+      "bytes": 142542,
+      "sha256": "84bd15beae5a6d807fa6f55ade04344136ff1fd75ef44cf71575d86c2e63f063"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0124a476-262a-4afc-b7b5-3f4d41b413a8/scenario_0124a476-262a-4afc-b7b5-3f4d41b413a8.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0124a476-262a-4afc-b7b5-3f4d41b413a8/scenario_0124a476-262a-4afc-b7b5-3f4d41b413a8.parquet",
+      "file": "scenario_0124a476-262a-4afc-b7b5-3f4d41b413a8.parquet",
+      "bytes": 123140,
+      "sha256": "b5319b61d8d24e8a0f7e2cb56a8352198053ba408f843fc95af8d5894a2fec8a"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/012ae3e3-aa0b-45e6-af38-f8ddb5ecec6b/scenario_012ae3e3-aa0b-45e6-af38-f8ddb5ecec6b.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/012ae3e3-aa0b-45e6-af38-f8ddb5ecec6b/scenario_012ae3e3-aa0b-45e6-af38-f8ddb5ecec6b.parquet",
+      "file": "scenario_012ae3e3-aa0b-45e6-af38-f8ddb5ecec6b.parquet",
+      "bytes": 81628,
+      "sha256": "c01bd1f2bbd404a93df207bc988fefd60bd9db005c6edac9ab64c200c82e7f0b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/012d987d-0f4a-47f7-99c3-04278e8e897e/scenario_012d987d-0f4a-47f7-99c3-04278e8e897e.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/012d987d-0f4a-47f7-99c3-04278e8e897e/scenario_012d987d-0f4a-47f7-99c3-04278e8e897e.parquet",
+      "file": "scenario_012d987d-0f4a-47f7-99c3-04278e8e897e.parquet",
+      "bytes": 168784,
+      "sha256": "d8db439fb2c7e545f9e06a2648c0a3d2e79e3e51a36ce6b0ff3fc7928112d57d"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01340461-df3d-4d25-9085-657d1c7839f3/scenario_01340461-df3d-4d25-9085-657d1c7839f3.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01340461-df3d-4d25-9085-657d1c7839f3/scenario_01340461-df3d-4d25-9085-657d1c7839f3.parquet",
+      "file": "scenario_01340461-df3d-4d25-9085-657d1c7839f3.parquet",
+      "bytes": 240128,
+      "sha256": "ef307d7bf9421f3472db7fdb16a9651ced289917cab870ee8da49f37c4ce680a"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0134aa84-8bf4-4b83-8c84-c3598e69b663/scenario_0134aa84-8bf4-4b83-8c84-c3598e69b663.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0134aa84-8bf4-4b83-8c84-c3598e69b663/scenario_0134aa84-8bf4-4b83-8c84-c3598e69b663.parquet",
+      "file": "scenario_0134aa84-8bf4-4b83-8c84-c3598e69b663.parquet",
+      "bytes": 298835,
+      "sha256": "50a1f984e62af3457427ffd68e28c0789a13b6615289354a01ea234b595a1c33"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/013563bf-4b77-464d-8930-612b2d58816c/scenario_013563bf-4b77-464d-8930-612b2d58816c.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/013563bf-4b77-464d-8930-612b2d58816c/scenario_013563bf-4b77-464d-8930-612b2d58816c.parquet",
+      "file": "scenario_013563bf-4b77-464d-8930-612b2d58816c.parquet",
+      "bytes": 97475,
+      "sha256": "eed52f3b4001395b5b5f9b9ee93f8bb1d7f6fd4b0cf55d4e8274a217d90e7701"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0136e98b-3f68-4cb4-9b5c-cbe5799980c9/scenario_0136e98b-3f68-4cb4-9b5c-cbe5799980c9.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0136e98b-3f68-4cb4-9b5c-cbe5799980c9/scenario_0136e98b-3f68-4cb4-9b5c-cbe5799980c9.parquet",
+      "file": "scenario_0136e98b-3f68-4cb4-9b5c-cbe5799980c9.parquet",
+      "bytes": 282556,
+      "sha256": "c4baae58ae4998855a7a929c8fdaf4a1536b1776d0846785f96ad695be2b6400"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01398017-cd33-4092-a16c-2b1f78da7546/scenario_01398017-cd33-4092-a16c-2b1f78da7546.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01398017-cd33-4092-a16c-2b1f78da7546/scenario_01398017-cd33-4092-a16c-2b1f78da7546.parquet",
+      "file": "scenario_01398017-cd33-4092-a16c-2b1f78da7546.parquet",
+      "bytes": 71928,
+      "sha256": "82714ed2ac05c3a4c371062a5619efb66b421b869eac27e0d5dcd1dab118d46d"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/013b721e-322b-4e5c-91f2-3c455c1196ec/scenario_013b721e-322b-4e5c-91f2-3c455c1196ec.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/013b721e-322b-4e5c-91f2-3c455c1196ec/scenario_013b721e-322b-4e5c-91f2-3c455c1196ec.parquet",
+      "file": "scenario_013b721e-322b-4e5c-91f2-3c455c1196ec.parquet",
+      "bytes": 189156,
+      "sha256": "9bedc078bdb95435cec8e2b9138fb1503f602d439654ea7e42049a9921503a2d"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/013c7009-91c3-42e8-8ef2-8633d90f7d95/scenario_013c7009-91c3-42e8-8ef2-8633d90f7d95.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/013c7009-91c3-42e8-8ef2-8633d90f7d95/scenario_013c7009-91c3-42e8-8ef2-8633d90f7d95.parquet",
+      "file": "scenario_013c7009-91c3-42e8-8ef2-8633d90f7d95.parquet",
+      "bytes": 134743,
+      "sha256": "b22700b856b9ede314e4c22138d7ece4cb83e51fe2d7471d06e13a65e33660c8"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0143050d-d577-494c-929b-0a9811c6e7b5/scenario_0143050d-d577-494c-929b-0a9811c6e7b5.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0143050d-d577-494c-929b-0a9811c6e7b5/scenario_0143050d-d577-494c-929b-0a9811c6e7b5.parquet",
+      "file": "scenario_0143050d-d577-494c-929b-0a9811c6e7b5.parquet",
+      "bytes": 204555,
+      "sha256": "a4ea36c54a3efa391b03b0dcffa45f7c4b2ae36c27a656d521ec31be53c57c8a"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/014586b7-0816-4c04-b92d-981bd5de9984/scenario_014586b7-0816-4c04-b92d-981bd5de9984.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/014586b7-0816-4c04-b92d-981bd5de9984/scenario_014586b7-0816-4c04-b92d-981bd5de9984.parquet",
+      "file": "scenario_014586b7-0816-4c04-b92d-981bd5de9984.parquet",
+      "bytes": 263997,
+      "sha256": "dcef05ec8a86fcfc709cf233272b1234e3e55cf4fcb8d87b8236e292942ffeae"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01465848-057b-4ec6-934d-2f0609f344cc/scenario_01465848-057b-4ec6-934d-2f0609f344cc.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01465848-057b-4ec6-934d-2f0609f344cc/scenario_01465848-057b-4ec6-934d-2f0609f344cc.parquet",
+      "file": "scenario_01465848-057b-4ec6-934d-2f0609f344cc.parquet",
+      "bytes": 178757,
+      "sha256": "9e8594cf08af2480702c2761f90cf0bc72828bf9be24248040c119de8bd690dc"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01485c35-55a9-4ada-bf96-03751f2193b9/scenario_01485c35-55a9-4ada-bf96-03751f2193b9.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01485c35-55a9-4ada-bf96-03751f2193b9/scenario_01485c35-55a9-4ada-bf96-03751f2193b9.parquet",
+      "file": "scenario_01485c35-55a9-4ada-bf96-03751f2193b9.parquet",
+      "bytes": 177988,
+      "sha256": "f3a0fdcfffd0a77e3af793e3955fb4eaef6833388bb7f90ba90a845f3e203741"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/014a4282-3688-40b9-a881-02748e279acf/scenario_014a4282-3688-40b9-a881-02748e279acf.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/014a4282-3688-40b9-a881-02748e279acf/scenario_014a4282-3688-40b9-a881-02748e279acf.parquet",
+      "file": "scenario_014a4282-3688-40b9-a881-02748e279acf.parquet",
+      "bytes": 96069,
+      "sha256": "965cfb17b1eb5d9ad7b90982a6987967386eccbae4c0a3e2e318b6e683f2234b"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/014d18b9-7c8e-44c3-aeb0-bd285b6a0009/scenario_014d18b9-7c8e-44c3-aeb0-bd285b6a0009.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/014d18b9-7c8e-44c3-aeb0-bd285b6a0009/scenario_014d18b9-7c8e-44c3-aeb0-bd285b6a0009.parquet",
+      "file": "scenario_014d18b9-7c8e-44c3-aeb0-bd285b6a0009.parquet",
+      "bytes": 97607,
+      "sha256": "f10c6a999e22c5f07b6605f2077571627974b1b52c5fff1ac0863b17f87deb45"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/014fd1db-07e6-4975-95f8-d295e675f230/scenario_014fd1db-07e6-4975-95f8-d295e675f230.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/014fd1db-07e6-4975-95f8-d295e675f230/scenario_014fd1db-07e6-4975-95f8-d295e675f230.parquet",
+      "file": "scenario_014fd1db-07e6-4975-95f8-d295e675f230.parquet",
+      "bytes": 94414,
+      "sha256": "b911308fa5cb1624e0adaeff4c26c8649314f8c5886f81337e02afa70e513661"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/015b821a-520a-4a2f-92cd-de0de2f617c4/scenario_015b821a-520a-4a2f-92cd-de0de2f617c4.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/015b821a-520a-4a2f-92cd-de0de2f617c4/scenario_015b821a-520a-4a2f-92cd-de0de2f617c4.parquet",
+      "file": "scenario_015b821a-520a-4a2f-92cd-de0de2f617c4.parquet",
+      "bytes": 81353,
+      "sha256": "e2780fa3717aaf02ea41ba6b56c837d7f6356f532fb6cf77262913f15eee006c"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/015e5479-1888-4d13-816c-689d9437599e/scenario_015e5479-1888-4d13-816c-689d9437599e.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/015e5479-1888-4d13-816c-689d9437599e/scenario_015e5479-1888-4d13-816c-689d9437599e.parquet",
+      "file": "scenario_015e5479-1888-4d13-816c-689d9437599e.parquet",
+      "bytes": 243640,
+      "sha256": "6bd3cc33e5ab9a78ee16741be2d4d5fe5cc09720365f053b44f40cd32b1aefc9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/015ec6a8-5bb1-43d2-9afc-866b8d3a6ae4/scenario_015ec6a8-5bb1-43d2-9afc-866b8d3a6ae4.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/015ec6a8-5bb1-43d2-9afc-866b8d3a6ae4/scenario_015ec6a8-5bb1-43d2-9afc-866b8d3a6ae4.parquet",
+      "file": "scenario_015ec6a8-5bb1-43d2-9afc-866b8d3a6ae4.parquet",
+      "bytes": 172269,
+      "sha256": "d1956de5e0d95dd360c201cb8e26550fc1fa2071c0d5ef864b1a0d92d05bbf34"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01608445-d0c0-4ab1-ad71-c1f2366af236/scenario_01608445-d0c0-4ab1-ad71-c1f2366af236.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01608445-d0c0-4ab1-ad71-c1f2366af236/scenario_01608445-d0c0-4ab1-ad71-c1f2366af236.parquet",
+      "file": "scenario_01608445-d0c0-4ab1-ad71-c1f2366af236.parquet",
+      "bytes": 72390,
+      "sha256": "3f4b74a2626eb59b4635146171bf342eab4b47aa3b4de9151b5975d15f6ba6c4"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01648874-5934-457c-abb1-586a68bc6cf9/scenario_01648874-5934-457c-abb1-586a68bc6cf9.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01648874-5934-457c-abb1-586a68bc6cf9/scenario_01648874-5934-457c-abb1-586a68bc6cf9.parquet",
+      "file": "scenario_01648874-5934-457c-abb1-586a68bc6cf9.parquet",
+      "bytes": 159541,
+      "sha256": "676444e9b9363c87437f63fc129b5cdd23025bf131b68af2f82f23e6e9a059a6"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/016571a9-11d3-43e1-9fbb-eb286220fb81/scenario_016571a9-11d3-43e1-9fbb-eb286220fb81.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/016571a9-11d3-43e1-9fbb-eb286220fb81/scenario_016571a9-11d3-43e1-9fbb-eb286220fb81.parquet",
+      "file": "scenario_016571a9-11d3-43e1-9fbb-eb286220fb81.parquet",
+      "bytes": 89227,
+      "sha256": "a01bb623adec30382b11512564198ecec564379cc99416ae7990eb91bffa0df9"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0168106d-6aac-4b54-adec-fb9996040418/scenario_0168106d-6aac-4b54-adec-fb9996040418.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0168106d-6aac-4b54-adec-fb9996040418/scenario_0168106d-6aac-4b54-adec-fb9996040418.parquet",
+      "file": "scenario_0168106d-6aac-4b54-adec-fb9996040418.parquet",
+      "bytes": 147507,
+      "sha256": "55f86a5149ca3e586da15b890b5e9d336247957d783082e6124ffaa9e986a2ff"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0168f167-e4ad-4850-962b-6f0ec3292f92/scenario_0168f167-e4ad-4850-962b-6f0ec3292f92.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0168f167-e4ad-4850-962b-6f0ec3292f92/scenario_0168f167-e4ad-4850-962b-6f0ec3292f92.parquet",
+      "file": "scenario_0168f167-e4ad-4850-962b-6f0ec3292f92.parquet",
+      "bytes": 35802,
+      "sha256": "3ec015ec4e7d2ce5a985a116a2e5426ac36609e69a9542607c7e86d06a23abb7"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0169c8ca-0230-4e03-8c83-7d01cbd77d37/scenario_0169c8ca-0230-4e03-8c83-7d01cbd77d37.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0169c8ca-0230-4e03-8c83-7d01cbd77d37/scenario_0169c8ca-0230-4e03-8c83-7d01cbd77d37.parquet",
+      "file": "scenario_0169c8ca-0230-4e03-8c83-7d01cbd77d37.parquet",
+      "bytes": 59979,
+      "sha256": "975ffd8afd7f7ad6a64906862fc60eed275e5a9006e1534654776f933f05f872"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0169cd4a-5b5a-4016-80b9-828cc05e554c/scenario_0169cd4a-5b5a-4016-80b9-828cc05e554c.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0169cd4a-5b5a-4016-80b9-828cc05e554c/scenario_0169cd4a-5b5a-4016-80b9-828cc05e554c.parquet",
+      "file": "scenario_0169cd4a-5b5a-4016-80b9-828cc05e554c.parquet",
+      "bytes": 99741,
+      "sha256": "0b97973e0f5f1ee04405810d1a747020a4659b073557a2c34f241c56a816b6be"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/016b7b76-b5d0-4891-8205-3942113b05aa/scenario_016b7b76-b5d0-4891-8205-3942113b05aa.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/016b7b76-b5d0-4891-8205-3942113b05aa/scenario_016b7b76-b5d0-4891-8205-3942113b05aa.parquet",
+      "file": "scenario_016b7b76-b5d0-4891-8205-3942113b05aa.parquet",
+      "bytes": 185687,
+      "sha256": "cafd18df2296a3a3c06ac77a4b8f889b7c1e24131dfb0ca08f421411ab25dae4"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/0171cf17-b4c7-4772-af3a-54f338d52101/scenario_0171cf17-b4c7-4772-af3a-54f338d52101.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/0171cf17-b4c7-4772-af3a-54f338d52101/scenario_0171cf17-b4c7-4772-af3a-54f338d52101.parquet",
+      "file": "scenario_0171cf17-b4c7-4772-af3a-54f338d52101.parquet",
+      "bytes": 100121,
+      "sha256": "4ee7bc7053f4f5334d0cff91e782938d85cc21bdb1ccda9fbd0c9021b3981a38"
+    },
+    {
+      "key": "datasets/av2/motion-forecasting/val/01740590-deff-4fa8-928a-e77ad373acf9/scenario_01740590-deff-4fa8-928a-e77ad373acf9.parquet",
+      "url": "https://argoverse.s3.amazonaws.com/datasets/av2/motion-forecasting/val/01740590-deff-4fa8-928a-e77ad373acf9/scenario_01740590-deff-4fa8-928a-e77ad373acf9.parquet",
+      "file": "scenario_01740590-deff-4fa8-928a-e77ad373acf9.parquet",
+      "bytes": 147657,
+      "sha256": "7d33e63fb5bc94332dfcc43bddc5f4832c881a5d77723a9687aee150d6e602ce"
+    }
+  ]
+}

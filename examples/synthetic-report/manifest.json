@@ -1,0 +1,40 @@
+{
+  "fleetslice_version": "0.1.0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "config": {
+    "seed": 42,
+    "resamples": 2000,
+    "min_samples": 10,
+    "ade_tolerance": 0.2,
+    "fde_tolerance": 0.5,
+    "miss_tolerance": 0.02,
+    "miss_threshold": 2.0,
+    "triage_budget": 12
+  },
+  "labels": {
+    "baseline": "Injected baseline",
+    "candidate": "Injected candidate"
+  },
+  "inputs": {
+    "baseline": {
+      "name": "baseline.jsonl",
+      "sha256": "e4f36b52edd3e53b8387688193d41a40ad5b569f6b6bb9daa82d4b5f9ee93248"
+    },
+    "candidate": {
+      "name": "candidate.jsonl",
+      "sha256": "40d5254ea9ce1793a4e4135423531f02518232d2a1d0ac7d69582f8b8fafe7ce"
+    },
+    "dataset": {
+      "name": "scenes.jsonl",
+      "sha256": "175486a08b93d0797dbf2fcfbbce91e1c2733b9788595fbeb96c3818f5f01bfa"
+    }
+  },
+  "artifacts": {
+    "metrics.csv": "330d6c6b20a4117dc295ea3b01787a853d1b505079954dfbe6c8326a751c69ec",
+    "report.html": "a666b56e0e166cf41ed26da6a2118a7c2597c7eb6d11843b92a623cb17bbc219",
+    "report.json": "6636b603b779b4eba8a3e508a9f44e99be7eda943a66ce23ffba334c46383dc9",
+    "summary.md": "a5583505eba894d88f8a3dcb780e73175707b7be9e73cdefd53f8ef3f23c9dfd",
+    "triage.jsonl": "8a2c400337f8e8992a22fba40ebe44983c274b6774aedbdf6de64cb2db1cf28c"
+  }
+}

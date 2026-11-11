@@ -1,0 +1,40 @@
+{
+  "fleetslice_version": "0.1.0",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "config": {
+    "seed": 42,
+    "resamples": 2000,
+    "min_samples": 10,
+    "ade_tolerance": 0.2,
+    "fde_tolerance": 0.5,
+    "miss_tolerance": 0.02,
+    "miss_threshold": 2.0,
+    "triage_budget": 12
+  },
+  "labels": {
+    "baseline": "constant-velocity",
+    "candidate": "constant-acceleration"
+  },
+  "inputs": {
+    "baseline": {
+      "name": "cv.jsonl",
+      "sha256": "7787593aa4b8e32fefe4cf2d10b167cb57e41773972aaaf5d29921f77fb61690"
+    },
+    "candidate": {
+      "name": "ca.jsonl",
+      "sha256": "7f9de9e2e2cd20c3bbca4882e4677b721357eacabbf2501f82633e3ccb4842b3"
+    },
+    "dataset": {
+      "name": "av2-scenes.jsonl",
+      "sha256": "995f7d3d2ab60a5c62ed853ff894b3f0486f16c369f16fc28edb44ec98b00228"
+    }
+  },
+  "artifacts": {
+    "metrics.csv": "fa45a90bfad81fb4fbcff1e375e19df87dd4a723c331c13db888ba2967e830ce",
+    "report.html": "89b13820c41daca3d0a937018d5501478fa0fc1f6a48d936a2be113305c95f15",
+    "report.json": "dbbf5d0e48daef2467c7220f9dbdae0f61e9fc2724cf6da81e6b64ef867c2c88",
+    "summary.md": "3497b5ba9d92de704d20217f8029a8906601a485a4523528f46945733ecbfac2",
+    "triage.jsonl": "75e8210d4533eee2591caba02e8b9d3a7b43ccf7cfe9d21ffe30e1b310e7fb15"
+  }
+}
